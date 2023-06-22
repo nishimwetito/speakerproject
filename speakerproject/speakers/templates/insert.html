@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <!-- Create Fields -->
+      <label for="firstname">First name:</label>
+      <input type="text" name="firstname" required />
+      <br />
+      <label for="lastname">Last name:</label>
+      <input type="text" name="lastname" required />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" required />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" required />
+      <br />
+      <button type="submit" name="action" value="create">Create</button>
+
+      <!-- Update Fields -->
+      <hr />
+      <label for="updateId">Enter ID to update:</label>
+      <input type="number" name="updateId" required />
+      <br />
+      <button type="submit" name="action" value="update">Update</button>
+
+      <!-- Delete Field -->
+      <hr />
+      <label for="deleteId">Enter ID to delete:</label>
+      <input type="number" name="deleteId" required />
+      <br />
+      <button type="submit" name="action" value="delete">Delete</button>
+
+      <!-- Read Field -->
+      <hr />
+      <label for="readId">Enter ID to read:</label>
+      <input type="number" name="readId" required />
+      <br />
+      <button type="submit" name="action" value="read">Read</button>
+    </form>
+  </body>
+</html>
